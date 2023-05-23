@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="header-page">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fw-bold">Agro Fly - Store</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navagation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navagation">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#about-store">
+                            <i class="bi bi-house-door me-1"></i>
+                            About Us
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#services">
+                            <i class="bi bi-brightness-low-fill me-1"></i>
+                            Services
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#products">
+                            <i class="bi bi-basket2 me-1"></i>
+                            Products
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#contact-us">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="header-page" data-bs-smooth-scroll="true">
+        <section id="about-store">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="w-100" src="/images/slides/slide1.jpg" alt="field">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="/images/slides/slide2.jpg" alt="second field">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="/images/slides/slide3.jpg" alt="third field">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="/images/front_store.jpg" class="d-block w-100 rounded"
+                                alt="Internal space of the restaurant">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">About <span class="text-colored">Us</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, illum id culpa dicta
+                                odit
+                                consequuntur. Necessitatibus nisi nam voluptatum quidem recusandae dolores, alias,
+                                blanditiis excepturi dolorem, obcaecati sed illum ullam!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatibus vero eaque
+                                quia quisquam veritatis ducimus molestiae blanditiis odit illo sint dignissimos nesciunt
+                                repellat consequatur, itaque accusantium aut. Cum, numquam.
+                            </p>
+                            <h3 class="section-title">About <span class="text-colored">our Clients</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quod, illum at tempora
+                                voluptas cum error quo rem laboriosam ipsa. Amet porro commodi enim ipsam dolorum
+                                expedita
+                                quod rerum laborum.
+                            </p>
+                            <ul>
+                                <li>
+                                    Company 1
+                                </li>
+                                <li>
+                                    Company 2
+                                </li>
+                                <li>
+                                    Company 3
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row mt-4">
+                    <h2 class="section-title text-center">For the most <span class="text-colored">diverse
+                            services</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="/images/eventos/aniversario.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-clipboard-data-fill"></i>
+                            Field Evaluation
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni reiciendis facilis repellat
+                            illum ad, delectus ea. Possimus, veritatis exercitationem. Culpa nemo illum harum sed at
+                            quis enim assumenda fugiat atque!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/images/eventos/casamento.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-browser-safari"></i>
+                            Soil Topography
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni reiciendis facilis repellat
+                            illum ad, delectus ea. Possimus, veritatis exercitationem. Culpa nemo illum harum sed at
+                            quis enim assumenda fugiat atque!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/images/eventos/confraternizacoes.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-wrench-adjustable"></i>
+                            Machine Repair
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni reiciendis facilis repellat
+                            illum ad, delectus ea. Possimus, veritatis exercitationem. Culpa nemo illum harum sed at
+                            quis enim assumenda fugiat atque!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="products" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Our <span class="text-colored">Products</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-products">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#biological-treaments"
+                                class="fw-bold text-start nav-link text-colored active">Biological Treatments</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#packaging-products"
+                                class="fw-bold text-start nav-link text-colored">Packaging Products</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#chainsaws"
+                                class="fw-bold text-start nav-link text-colored">Chainsaws</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#brushcutters"
+                                class="fw-bold text-start nav-link text-colored">Brushcutters</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mills"
+                                class="fw-bold text-start nav-link text-colored">Mills</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="biological-treaments">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g1/bayel_garbol.jpg"
+                                            alt="Coca-cola">
+                                        <h5 class="text-colored fw-bold mt-2">Bayel Garbol 1L</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g1/bayel_garbol_25l.jpg"
+                                            alt="Beer">
+                                        <h5 class="text-colored fw-bold mt-2">Bayel Garbol 25L</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g1/boskbest.png" alt="Beer">
+                                        <h5 class="text-colored fw-bold mt-2">BockBest</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g1/corteva.png" alt="Beer">
+                                        <h5 class="text-colored fw-bold mt-2">Corteva</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="packaging-products">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g2/honey_glass.jpg"
+                                            alt="lorem">
+                                        <h5 class="text-colored fw-bold mt-2">S - Honey Glass</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g2/honey_glass_big.jpg"
+                                            alt="lorem">
+                                        <h5 class="text-colored fw-bold mt-2">L - Honey Glass</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g2/top_glass.jpg" alt="lorem">
+                                        <h5 class="text-colored fw-bold mt-2">S - Top Glass</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g2/top_glass_big.jpg"
+                                            alt="lorem">
+                                        <h5 class="text-colored fw-bold mt-2">L - Top Glass</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="chainsaws">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g3/120i_kit.jpeg" alt="lorem">
+                                        <h5 class="text-colored fw-bold mt-2">120i Kit</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g3/electro.jpg" alt="lorem">
+                                        <h5 class="text-colored fw-bold mt-2">Electro</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g3/husqvarna.png" alt="lorem">
+                                        <h5 class="text-colored fw-bold mt-2">Husqvarna</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g3/rancher.png" alt="lorem">
+                                        <h5 class="text-colored fw-bold mt-2">Rancher</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g3/torq.png" alt="lorem">
+                                        <h5 class="text-colored fw-bold mt-2">TorQ</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="brushcutters">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g4/1.png" alt="lorem">
+                                        <h5 class="text-colored fw-bold mt-2">Lorem</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g4/2.png" alt="lorem">
+                                        <h5 class="text-colored fw-bold mt-2">Lorem</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g4/3.png" alt="lorem">
+                                        <h5 class="text-colored fw-bold mt-2">Lorem</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g4/4.png" alt="lorem">
+                                        <h5 class="text-colored fw-bold mt-2">Lorem</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="mills">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g5/1.png" alt="lorem">
+                                        <h5 class="text-colored fw-bold mt-2">Lorem</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g5/2.jpg" alt="lorem">
+                                        <h5 class="text-colored fw-bold mt-2">Lorem</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g5/3.jpg" alt="lorem">
+                                        <h5 class="text-colored fw-bold mt-2">Lorem</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="/images/products/g5/4.jpg" alt="lorem">
+                                        <h5 class="text-colored fw-bold mt-2">Lorem</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact-us" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Contact <span class="text-colored">Us</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label fw-bold text-colored">Your Name:</label>
+                                <input type="text" id="name" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Your E-mail:</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="cellphone" class="form-label fw-bold text-colored">Your Cellphone
+                                    (Optional):</label>
+                                <input type="tel" id="cellphone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label fw-bold text-colored">Your Message:</label>
+                                <textarea class="form-control" id="message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Send</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Social Medias
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Address
+                            </h3>
+                            <p>
+                                Test Road N. 123, County Bootstrap - Bootstrap - BS
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

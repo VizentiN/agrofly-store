@@ -1,0 +1,61 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #4bde55;
+}
+
+#header-page .nav .nav-link.active {
+    background-color: #fff;
+    color: #4bde55;
+}
+
+#header-page .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-products .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #f9ffe6;
+}
+
+.section-title {
+    font-family: Quicksand, sans-serif;
+}
+
+#about-store,
+#products {
+    background-color: #f9ffe6;
+}
+
+.text-colored {
+    color: #4bde55;
+}
+
+.nav-products .nav-link.active,
+#contact-us button {
+    background-color: #4bde55;
+    color: #fff;
+}
+
+.nav-products .nav-link:hover {
+    color: #4bde55;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
